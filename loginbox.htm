@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+<form action="Login.aspx" method="post">
+    <table id="ctl00_MainContent_LoginUser" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+	<tr>
+		<td>
+                <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;">
+                    <tr>
+                        <td>
+
+                            <table cellpadding="0">
+                                <tr>
+                                    <td align="center" colspan="2">
+                                        Log In</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <label for="ctl00_MainContent_LoginUser_UserName" id="ctl00_MainContent_LoginUser_UserNameLabel">User Name:</label>
+
+                                    </td>
+                                    <td>
+                                        <input name="ctl00$MainContent$LoginUser$UserName" type="text" id="ctl00_MainContent_LoginUser_UserName" />
+                                        <span id="ctl00_MainContent_LoginUser_UserNameRequired" title="User Name is required." style="color:Red;visibility:hidden;">*</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+
+                                        <label for="ctl00_MainContent_LoginUser_Password" id="ctl00_MainContent_LoginUser_PasswordLabel">Password:</label>
+                                    </td>
+                                    <td>
+                                        <input name="ctl00$MainContent$LoginUser$Password" type="password" id="ctl00_MainContent_LoginUser_Password" />
+                                        <span id="ctl00_MainContent_LoginUser_PasswordRequired" title="Password is required." style="color:Red;visibility:hidden;">*</span>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td colspan="2">
+                                        <input id="ctl00_MainContent_LoginUser_RememberMe" type="checkbox" name="ctl00$MainContent$LoginUser$RememberMe" /><label for="ctl00_MainContent_LoginUser_RememberMe">Remember me next time.</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2" style="color:Red;">
+                                        
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="right" colspan="2">
+                                        <input type="submit" name="ctl00$MainContent$LoginUser$LoginButton" value="Log In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$LoginUser$LoginButton&quot;, &quot;&quot;, true, &quot;LoginUser&quot;, &quot;&quot;, false, false))" id="ctl00_MainContent_LoginUser_LoginButton" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+	</tr>
+</table>
+    </form>
+</body>
+</html>
